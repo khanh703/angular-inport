@@ -80,6 +80,7 @@ export class InviewDirective implements OnInit, OnDestroy, AfterViewInit {
         filter(() => true),
         mergeMap((event: any) => _of(this._getViewPortRuler()))
       ).subscribe((containersBounds: ElementBoundingPositions) => this.handleOnScroll(containersBounds));
+    _this.handleOnScroll({bottom: window.innerHeight,height: window.innerHeight,left: 0,right: window.innerWidth,top: 0,width: window.innerWidth});
     /*
     [this._throttleType](() => timer(this._throttle))
       .filter(() => true)
