@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Rx_1 = require("rxjs/Rx");
+var Rx_1 = require("rxjs");
 var scroll_observable_1 = require("./utils/scroll-observable");
 var offset_resolver_1 = require("./utils/offset-resolver");
 var position_resolver_1 = require("./utils/position-resolver");
