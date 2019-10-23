@@ -2,9 +2,10 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
 var Observable_1 = require("rxjs");
-require("rxjs/add/observable/fromEvent");
-require("rxjs/add/observable/merge");
-require("rxjs/add/operator/share");
+require("rxjs");
+//require("rxjs/add/observable/fromEvent");
+//require("rxjs/add/observable/merge");
+//require("rxjs/add/operator/share");
 var viewport_ruler_1 = require("./viewport-ruler");
 var ScrollObservable = (function () {
     function ScrollObservable(_windowRuler) {
