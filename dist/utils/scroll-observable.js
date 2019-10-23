@@ -1,7 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 var core_1 = require("@angular/core");
-var Observable_1 = require("rxjs");
+var Observable_1 = require("rxjs/Observable");
 require("rxjs/add/observable/fromEvent");
 require("rxjs/add/observable/merge");
 require("rxjs/add/operator/share");
